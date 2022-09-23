@@ -1,0 +1,7 @@
+s=input()
+if s in"aeiouAEIOU":
+    print("vowel")
+elif s in"bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ":
+    print("consonant")
+else:
+    print("not an alphabet")
