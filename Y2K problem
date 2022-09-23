@@ -1,0 +1,6 @@
+x=int(input("Enter year of Birth\n"))
+y=int(input("Enter Current year\n"))
+if y>x:
+    print(f"Your age is {y-x}")
+else:
+    print(f"Your age is {100+y-x}")
