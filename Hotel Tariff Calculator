@@ -1,0 +1,9 @@
+m=int(input())
+r=int(input())
+d=int(input())
+if m==5 or m==6 or m==4 or m==11 or m==12:
+    print(f"Hotel Tariff: Rs.{'%.2f'%(r*1.2*d)}")
+elif m<=0 or m>12:
+    print("Invalid Input")
+else:
+    print(f"Hotel Tariff: Rs.{'%.2f'%(r*d)}")
