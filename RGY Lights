@@ -1,0 +1,7 @@
+s=float(input())
+d=float(input())
+t=float(input())
+if (s/d) <= t:
+    print("no")
+else:
+    print("yes")
