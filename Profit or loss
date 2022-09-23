@@ -1,0 +1,11 @@
+cp=float(input())
+sp1=float(input())
+sp=sp1*12
+print("Enter the price of a dozen mangoes")
+print("Enter the price at which 1 mango is being sold")
+if sp==cp:
+    print("no profit nor loss")
+elif sp>cp:
+    print(f"profit: Rs.{'%.2f'%(sp-cp)}")
+else:
+    print(f"loss: Rs.{'%.2f'%(cp-sp)}")
